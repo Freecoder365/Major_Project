@@ -27,14 +27,10 @@ df = df.drop(columns=["time"])
 targets = ["temp", "rhum", "prcp", "wspd", "pres"]
 
 features = [
-    'dwpt', 'wdir', 'wspd',
-    'hour', 'day_of_week', 'month',
-    'temp_lag1', 'rhum_lag1', 'prcp_lag1',
-    'wspd_lag1', 'pres_lag1',
-    'temp_roll3', 'rhum_roll3', 'prcp_roll3',
-    'wspd_roll3', 'pres_roll3'
+    'dwpt', 'wdir', 'wspd', 'wpgt', 'hour', 'day_of_week', 'month',
+    'temp_lag1', 'rhum_lag1', 'prcp_lag1', 'wspd_lag1', 'pres_lag1',
+    'temp_roll3', 'rhum_roll3', 'prcp_roll3', 'wspd_roll3', 'pres_roll3'
 ]
-
 
 X = df[features]
 y = df[targets]
