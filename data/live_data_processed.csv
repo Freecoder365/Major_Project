@@ -1,2 +1,0 @@
-time,temp,dwpt,rhum,prcp,wdir,wspd,wpgt,pres,hour,day_of_week,month,temp_lag1,rhum_lag1,prcp_lag1,wspd_lag1,pres_lag1,temp_roll3,rhum_roll3,prcp_roll3,wspd_roll3,pres_roll3
-2026-01-07 07:38:11,27.4,11.599999999999998,21,0.0,0,4.22,0,1015,7,2,1,0,0,0,0,0,0,0,0,0,0

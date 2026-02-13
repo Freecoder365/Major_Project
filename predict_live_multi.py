@@ -177,3 +177,20 @@ print(hybrid_pred)
 
 print("\n🧠 Final User-Friendly Forecast (Hybrid Model):")
 print(generate_weather_summary(hybrid_pred, "Hybrid Model"))
+
+# ================= USER GROUP LOGIC =================
+from experiments.user_logic.travel_user import travel_user_output
+from experiments.user_logic.agriculture_user import agriculture_user_output
+from experiments.user_logic.event_user import event_user_output
+
+print("\n================ USER GROUP SPECIFIC OUTPUTS ================\n")
+
+print("✈️ Travel / Flight User:")
+print(travel_user_output(hybrid_pred))
+
+print("\n🌾 Agriculture User:")
+print(agriculture_user_output(hybrid_pred))
+
+print("\n🎉 Event Planning User:")
+print(event_user_output(hybrid_pred))
+
